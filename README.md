@@ -5,7 +5,7 @@ A simple and modern web project that streams live Quran radio stations from diff
 ---
 
 ## 🌐 Live Demo
-👉 https://YOUR-LINK-HERE.netlify.app/
+👉 https://quranradiosham3a.netlify.app/
 
 ---
 
@@ -33,3 +33,11 @@ A simple and modern web project that streams live Quran radio stations from diff
 ---
 
 ## 📂 Project Structure
+/project-folder
+│
+├── Home.html
+├── all-stations.html
+├── important-stations.html
+├── stylesss.css
+├── script11.js
+└── radio.png
