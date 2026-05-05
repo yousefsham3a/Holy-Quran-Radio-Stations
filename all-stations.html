@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جميع الإذاعات</title>
+
+    <link rel="icon" href="radio.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesss.css">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<nav>
+    <div class="nav-container">
+        <a href="Home.html" class="logo">إذاعات القرآن</a>
+
+        <div class="nav-links">
+            <a href="Home.html">الرئيسية</a>
+           
+            <a href="all-stations.html" class="active">جميع الاذاعات</a>
+        </div>
+
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<main class="all-stations-section">
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="ابحث عن الإذاعة...">
+    </div>
+
+    <div class="stations-content">
+        <h1>جميع الإذاعات</h1>
+        <div id="allStationsGrid" class="stations-grid"></div>
+    </div>
+
+</main>
+
+<script src="script11.js"></script>
+</body>
+
+</html>
